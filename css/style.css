@@ -904,7 +904,11 @@ input[type="text"] {
 .footer__wrap::before {
   display: none;
 }
-.footer__list {
+.footer__text {
+  font-size: 18px;
+  line-height: 22px;
+
+} {
   
 
 }
