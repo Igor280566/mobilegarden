@@ -712,7 +712,7 @@ background: linear-gradient(28deg, rgba(218,243,218,1) 9%, rgba(255,255,255,0) 3
   background-color: #F8F8F8;
  }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 391px) {
 .header {
   margin-bottom: 20px;
 }  
