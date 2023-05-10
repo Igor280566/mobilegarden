@@ -698,7 +698,9 @@ background: linear-gradient(28deg, rgba(218,243,218,1) 9%, rgba(255,255,255,0) 3
   font-size: 18px;
   line-height: 34px;
   color: #678570;
-
+ }
+ .footer__list-link:hover {
+  color: #0CA941;
  }
  .footer__list-link--title {
   font-weight: 700;
