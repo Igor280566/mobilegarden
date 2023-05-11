@@ -114,12 +114,14 @@ background: linear-gradient(138deg, rgba(218,243,218,1) 8%, rgba(255,255,255,0.4
 }
 .header__wrap {
   display: flex;
+  flex-wrap:wrap;
   justify-content: flex-end;
   align-items: center;
   padding-top: 55px;
 }
 .nav__list {
   display: flex;
+  flex-wrap: wrap;
   gap: 50px;
   margin-right: 50px;
 }
@@ -278,6 +280,7 @@ background: linear-gradient(93deg, rgba(255,254,232,1) 10%, rgba(255,255,255,1) 
   position: relative;
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   height: 140px;
   background: #FFFFFF;
   box-shadow: 23px 19px 138px -45px rgba(12, 169, 65, 0.13);
@@ -341,8 +344,13 @@ background: linear-gradient(154deg, rgba(204,244,204,.8) 8%, rgba(255,255,255,0.
 .gardener {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   gap: 56px;
 }
+.gardener-left {
+  width: 638px;
+}
+
 
 .gardener__title {
   font-family: 'Fredoka One';
@@ -389,19 +397,23 @@ background: linear-gradient(154deg, rgba(204,244,204,.8) 8%, rgba(255,255,255,0.
   width: 18px;
   height: 11px;
 }
+.gardener-right {
+  width: 458px;
+}
 
 .main__service-wrap {
   background: rgb(255,255,255);
-background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 40%, rgba(255,250,221,1) 52%, rgba(218,243,218,1) 70%, rgba(255,255,255,1) 90%); 
+background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 40%, rgba(255,250,221,1) 52%, rgba(218,243,218,1) 70%, rgba(255,255,255,1) 95%); 
 }
 .service {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 106px;
   margin-bottom: 120px;
 }
 .service-left {
-  flex-basis: 458px;
+  width: 458px;
 }
 .service__title {
   font-family: 'Fredoka One';
@@ -449,8 +461,9 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 4
   height: 11px;
 }
 .service-right {
-  flex-basis: 900px;
+  width: 606px;
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   gap: 30px;
 }
@@ -464,6 +477,7 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 4
 }
 .service__card-wrap {
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   gap: 30px;
 }
@@ -518,10 +532,11 @@ background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 4
 }
 .choose__wrap {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 .choose__card {
-  max-width: 360px;
+  width: 360px;
   background: #FFFFFF;
   border: 0.5px solid rgba(0, 0, 0, 0.36);
   border-radius: 37px;
@@ -683,6 +698,7 @@ background: linear-gradient(28deg, rgba(218,243,218,1) 9%, rgba(255,255,255,0) 3
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   margin-bottom: 436px;
  }
  .footer__wrap::before {
@@ -728,12 +744,10 @@ background: linear-gradient(28deg, rgba(218,243,218,1) 9%, rgba(255,255,255,0) 3
   margin: 0 auto;
 }  
 .header__wrap {
-  flex-wrap: wrap;
   justify-content: center;
   row-gap: 30px;
 }
 .nav__list {
-  flex-wrap: wrap;
   gap: 30px;
   margin-right: 0;
 }
@@ -751,6 +765,7 @@ background: linear-gradient(28deg, rgba(218,243,218,1) 9%, rgba(255,255,255,0) 3
 .promo {
   flex-wrap: wrap;
 }
+
 .promo-left {
   width: 390px;
   padding-top: 20px;
@@ -780,11 +795,9 @@ background: linear-gradient(28deg, rgba(218,243,218,1) 9%, rgba(255,255,255,0) 3
   margin-top: 300px;
   margin-bottom: 200px;
 }
-.landscape {
-  flex-wrap: wrap;
-}
 .landscape__list {
   text-align: center;
+  flex-wrap: wrap;
 }
 .landscape__title {
   font-size: 24px;
@@ -796,7 +809,6 @@ background: linear-gradient(28deg, rgba(218,243,218,1) 9%, rgba(255,255,255,0) 3
   margin-bottom: 60px; 
 }
 .landscape__list {
-  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   gap: 20px;
@@ -814,9 +826,7 @@ background: linear-gradient(28deg, rgba(218,243,218,1) 9%, rgba(255,255,255,0) 3
 .main__gardener-wrap {
   padding: 30px 0;
 }  
-.gardener {
-  flex-wrap: wrap;
-  }
+
 .gardener-img {
   width: 319px;
   height: 274px;
@@ -835,9 +845,7 @@ background: linear-gradient(28deg, rgba(218,243,218,1) 9%, rgba(255,255,255,0) 3
   background: rgb(255,254,232);
 background: linear-gradient(90deg, rgba(255,254,232,1) 10%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 50%, rgba(218,243,218,1) 90%); 
 }
-.service {
-  flex-wrap: wrap;
-}
+
 .service__title {
   font-size: 24px;
   line-height: 28px;
@@ -855,7 +863,6 @@ background: linear-gradient(90deg, rgba(255,254,232,1) 10%, rgba(255,255,255,1) 
   margin-bottom: -40px;
 }
 .service-right {
-  flex-wrap: wrap;
   justify-content: center;
   background-image: none;
 }
@@ -870,18 +877,16 @@ background: linear-gradient(90deg, rgba(255,254,232,1) 10%, rgba(255,255,255,1) 
   margin-bottom: 15px;
 }
 .choose__wrap {
-  flex-wrap: wrap;
   justify-content: center;
+
   gap: 15px;
 }
 .choose__card {
   flex-basis: 360px;
 }
-
 .subscribe {
-  padding: 40px 0;
+  padding: 30px 0;
 }
-
 .subscribe__title {
   font-size: 24px;
   line-height: 28px;
@@ -891,7 +896,6 @@ background: linear-gradient(90deg, rgba(255,254,232,1) 10%, rgba(255,255,255,1) 
   width: 360px;
   font-size: 18px;
   line-height: 22px;
-  margin-bottom: 15px;
 }
 .subscribe__form {
   position: static;
@@ -909,8 +913,8 @@ input[type="text"] {
 .footer__wrap {
   position: static;
   margin-bottom: 40px;
-  flex-wrap: wrap;
   flex-direction: column;
+  
 }
 .footer__wrap::before {
   display: none;
@@ -918,9 +922,8 @@ input[type="text"] {
 .footer__text {
   font-size: 18px;
   line-height: 22px;
-} 
-  
+}  
 }
-}
+
 
   
