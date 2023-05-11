@@ -740,7 +740,7 @@ background: linear-gradient(28deg, rgba(218,243,218,1) 9%, rgba(255,255,255,0) 3
   top: -55px;
   left: -90px;
   width: 68px;
-  height: 115pxpx;
+  height: 115px;
 }
 .promo {
   flex-wrap: wrap;
@@ -909,9 +909,8 @@ input[type="text"] {
 .footer__text {
   font-size: 18px;
   line-height: 22px;
-} {
+} 
   
-
 }
 }
 
