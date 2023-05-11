@@ -36,8 +36,10 @@
 
 @font-face {
   font-family: Gilroy;
-  src: url(../font/Gilroy-Extrabold.woff2) format("woff2"),
-       url(../font/Gilroy-Extrabold.woff) format("woff");
+  font-style: extrabold;
+  font-weight: 800;
+  font-display: swap;
+  src: url(../font/Gilroy-Extrabold.woff) format("woff");
 }
 
 @font-face {
@@ -714,7 +716,11 @@ background: linear-gradient(28deg, rgba(218,243,218,1) 9%, rgba(255,255,255,0) 3
   background-color: #F8F8F8;
  }
 
+
+
+
 @media screen and (max-width: 391px) {
+
 .header {
   margin-bottom: 20px;
 }  
@@ -729,8 +735,8 @@ background: linear-gradient(28deg, rgba(218,243,218,1) 9%, rgba(255,255,255,0) 3
 .nav__list {
   flex-wrap: wrap;
   gap: 30px;
+  margin-right: 0;
 }
-
 .logo::before {
   position: absolute;
   content: '';
@@ -794,7 +800,6 @@ background: linear-gradient(28deg, rgba(218,243,218,1) 9%, rgba(255,255,255,0) 3
   align-items: center;
   justify-content: center;
   gap: 20px;
-
 }
 .landscape__list-item {
   flex-basis: 370px;
@@ -825,6 +830,10 @@ background: linear-gradient(28deg, rgba(218,243,218,1) 9%, rgba(255,255,255,0) 3
 .gardener__text{
   font-size: 18px;
   line-height: 22px;
+}
+.main__service-wrap {
+  background: rgb(255,254,232);
+background: linear-gradient(90deg, rgba(255,254,232,1) 10%, rgba(255,255,255,1) 50%, rgba(255,255,255,1) 50%, rgba(218,243,218,1) 90%); 
 }
 .service {
   flex-wrap: wrap;
